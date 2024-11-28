@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<style>
+ 			*{box-sizing:border-box;}
+ 			.row::after{content:"";clear:both;display:table;}
+            @media only screen and (max-width: 767px){
+                [class*="col-"]{float:left;padding:15px;width: 100%}
+                div {border: 1px solid palegoldenrod;padding:0px}
+                .a {background-color: indianred; }
+                .a2 {background-color: indianred; }
+                .a3 {background-color: indianred;}
+                body {background:palegoldenrod;}
+            }			
+            
+            @media only screen and (min-width: 768px){
+            [class*="col-"]{float:left;padding:15px;}
+            div {border: 1px solid cornflowerblue;padding:0px}
+            .col-1a {width: 8.33%;}
+            .col-2a {width: 16.66%;}
+            .col-3a {width: 25%;}
+            .col-4a {width: 33.33%;}
+            .col-5a {width: 41.66%;}
+            .col-6a {width: 50%;}
+            .col-7a {width: 58.33%;}
+            .col-8a {width: 66.66%;}
+            .col-9a {width: 75%;}
+            .col-10a {width: 83.33%;}
+            .col-11a {width: 91.66%;}
+            .col-12a {width: 100%;}
+            .a {background-color: lightcoral; }
+            .a2 {background-color: lightcoral; }
+            .a3 {background-color: lightcoral;}
+            body {background: cornflowerblue;;}
+            }
+            
+            @media only screen and (min-width: 992px){
+            [class*="col-"]{float:left;padding:15px;}
+            div {border: 1px solid palevioletred;padding:0px}
+            .col-1b {width: 8.33%;}
+            .col-2b {width: 16.66%;}
+            .col-3b {width: 25%;}
+            .col-4b {width: 33.33%;}
+            .col-5b {width: 41.66%;}
+            .col-6b {width: 50%;}
+            .col-7b {width: 58.33%;}
+            .col-8b {width: 66.66%;}
+            .col-9b {width: 75%;}
+            .col-10b {width: 83.33%;}
+            .col-11b {width: 91.66%;}
+            .col-12b {width: 100%;}
+            .a {background-color: peachpuff;}
+            .a2 {background-color: peachpuff;}
+            .a3 {background-color: peachpuff;}
+            body {background: palevioletred; } 
+            }
+ 			body {padding: 25px;text-align: justify; height: 1000px}
+            .header {background-color:darkviolet;color:gold;padding:15px;font-size:20px;text-align: center;font-family:initial;}
+            .u {font-family:cursive;font-size:13.1px}
+            p {font-family:sans-serif;}
+            h2 {font-family:sans-serif;}
+            .a {height: 300px}
+            .a2 {height: 300px}
+            .a3 {height: 300px}
+ 		</style>
+ 	<title></title>
+ </head>
+ <body>
+    <div class="header">
+        <h1><u class="headeru">Raphael Jerome A. Macuha</u></h1>
+    </div>
+    <div class = "col-6a col-4b a">
+    <h2>Personal Information</h2>
+         <p>Age: <u class="u">15</u></p>
+         <p>Gender: <u class="u">Male</u></p>
+         <p>Birdth date: <u class="u">April 3, 2009</u></p>
+         <p>Birth place: <u class="u">Asian Hospital and Medical Center, Muntinlupa</u></p>
+    </div>
+    <div class = "col-6a col-4b a" >
+        <h2>Contact Details</h2>
+         <p>Mobile Number: <u class="u">none</u></p>
+         <p>Landline: <u class="u">none</u></p>
+         <p>Email: <u class="u">rjamacuha@manresaschool.edu.ph</u></p>
+    </div>
+    <div class = "col-12a col-4b a">
+        <h2>Educational Attainment</h2>
+            <p>Junior High School: <u class="u">Manresa School BF Homes Parañaque City</u></p>
+            <p>Grade School: <u class="u">Manresa School BF Homes Parañaque City</u></p>
+            <p>Elementary <u class="u">School: Manresa School BF Homes Parañaque City</u></p>
+    </div>
+ </body>
+ </html>
