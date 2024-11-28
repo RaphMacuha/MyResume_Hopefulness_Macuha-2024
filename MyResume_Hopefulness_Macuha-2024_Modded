@@ -4,6 +4,7 @@
  	<meta charset="utf-8">
  	<meta name="viewport" content="width=device-width, initial-scale=1">
  		<style>
+    .f{height:auto;width:100%}
  			*{box-sizing:border-box;}
  			.row::after{content:"";clear:both;display:table;}
             @media only screen and (max-width: 767px){
@@ -33,7 +34,7 @@
             .a {background-color: lightcoral; }
             .a2 {background-color: lightcoral; }
             .a3 {background-color: lightcoral;}
-            body {background: cornflowerblue;background-image: url(https://static1.e621.net/data/sample/1b/f4/1bf43d696bd0e0dae04b1b29c7a7b785.jpg);}
+            body {background: cornflowerblue;}
             }
             
             @media only screen and (min-width: 992px){
@@ -54,7 +55,7 @@
             .a {background-color: peachpuff;}
             .a2 {background-color: peachpuff;}
             .a3 {background-color: peachpuff;}
-            body {background: palevioletred; background-image: url(https://pbs.twimg.com/media/GTQIy8QbEAAobzj.jpg)} 
+            body {background: palevioletred;} 
             }
  			body {padding: 25px;text-align: justify; height: 1000px}
             .header {background-color:darkviolet;color:gold;padding:15px;font-size:20px;text-align: center;font-family:initial;}
@@ -90,5 +91,6 @@
             <p>Grade School: <u class="u">Manresa School BF Homes Parañaque City</u></p>
             <p>Elementary <u class="u">School: Manresa School BF Homes Parañaque City</u></p>
     </div>
+<img src="https://static1.e621.net/data/sample/1b/f4/1bf43d696bd0e0dae04b1b29c7a7b785.jpg" class="F">
  </body>
  </html>
